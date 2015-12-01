@@ -15,7 +15,7 @@ int main(int argc, const char * argv[]) {
     a=(int *)malloc(4);
     if(a==0)
         exit(0);
-    *a=100;
+    *a=0;
     printf("a=%x *a=%x\n",a,*a);
     return 0;
 }
